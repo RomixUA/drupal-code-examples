@@ -1,0 +1,7 @@
+name: Block Field Class
+core: 8.x
+description: Makes possible to add classes for block field items.
+package: Code Examples
+type: module
+dependencies:
+  - block_field
