@@ -1,0 +1,8 @@
+name: Commerce Product Variation Select
+core: 8.x
+description: Provides DS field with links to other variations by field with different value.
+package: Code Examples
+type: module
+dependencies:
+  - ds
+  - commerce_product

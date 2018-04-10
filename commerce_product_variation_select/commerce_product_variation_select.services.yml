@@ -1,0 +1,5 @@
+services:
+  commerce_product_variation_select.route_subscriber:
+    class: Drupal\commerce_product_variation_select\EventSubscriber\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
