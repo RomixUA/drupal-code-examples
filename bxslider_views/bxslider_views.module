@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Primarily Drupal hooks and global API functions for BX Slider Views.
+ */
+
+/**
+ * Implements hook_theme().
+ *
+ * Register theming functions and those that are defined via views plugin
+ * definitions.
+ */
+function njal_main_theme($existing, $type, $theme, $path) {
+  return [
+    'views_lazy_slider' => [
+      'variables' => ['view' => NULL, 'rows' => NULL],
+      'file' => 'njal_main.theme.inc',
+    ],
+  ];
+}

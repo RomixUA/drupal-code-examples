@@ -1,0 +1,8 @@
+name: BX Slider Views
+core: 8.x
+description: Provides views style for BX Slider with some items per slide and with possibility add block as slide.
+package: Code Examples
+type: module
+dependencies:
+  - block
+  - views
